@@ -1,55 +1,35 @@
-
+/* การจัดรูปแบบหน้าเว็บ */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* ตั้งค่าความสูงของ body ให้เต็มหน้าจอ */
-    margin: 0;
-  }
-  
-  .container {
-    max-width: 500px;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  .input-container {
-    display: flex;
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  
-  .icon {
-    padding: 10px;
-    background: dodgerblue;
-    color: white;
-    min-width: 50px;
-    text-align: center;
-  }
-  
-  .input-field {
-    width: 100%;
-    padding: 10px;
-    outline: none;
-  }
-  
-  .input-field:focus {
-    border: 2px solid dodgerblue;
-  }
-  
-  /* Set a style for the submit button */
-  .btn {
-    background-color: dodgerblue;
-    color: white;
-    padding: 15px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-  }
-  
-  .btn:hover {
-    opacity: 1;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+/* การจัดรูปแบบฟอร์มล็อกอิน */
+.form-login {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+/* การจัดรูปแบบช่องกรอกข้อมูล */
+.form-login input[type="text"],
+.form-login input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+
+/* การจัดรูปแบบช่องกรอกข้อมูลเมื่อมีการเลือก */
+.form-login .form-floating:focus-within {
+  z-index: 2;
+}
