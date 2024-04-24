@@ -89,3 +89,19 @@ body {
       margin-top: 7rem;
     }
   }
+
+  body {
+    background-color: #ffffff; /* เปลี่ยนสีพื้นหลังของ body เป็นสีเทาอ่อน */
+  }
+  
+  .carousel {
+    background-color: #b2e68c; /* เปลี่ยนสีพื้นหลังของ carousel เป็นสีเทาอ่อน */
+  }
+  
+  .marketing .col-lg-4 {
+    background-color: #f3f0f0; /* เปลี่ยนสีพื้นหลังของ marketing columns เป็นสีขาว */
+  }
+  .carousel {
+    background-color: #ccc; /* เปลี่ยนสีพื้นหลังของ carousel เป็นสีเทาอ่อน */
+  }
+  
