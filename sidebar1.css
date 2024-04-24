@@ -1,13 +1,10 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #5a5a5a;
+    color: #090909;
   }
   
-  header {
-    padding-top: 100px; /* ลดช่องว่างด้านบนของ header */
-    padding-bottom: 100px; /* ลดช่องว่างด้านล่างของ header */
-}
+  
 
   
   /* CUSTOMIZE THE CAROUSEL
