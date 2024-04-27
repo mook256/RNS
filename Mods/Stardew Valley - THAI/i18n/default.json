@@ -1,0 +1,13 @@
+﻿{
+    // appearance
+    "config.section.Appearance.name": "สิ่งที่ปรากฏ",
+    "config.section.Appearance.description": "สิ่งที่ปรากฏในเกม",
+    "config.ThaiInterface.name": "อินเตอรเฟซภาษาไทย",
+    "config.ThaiInterface.description": "ปายรานคาและเอกสารตางๆ ภายในเกมเปนภาษาไทย",
+    "config.TidyCraftingMenu.name": "จัดระเบียบเมนูการคราฟ",
+    "config.TidyCraftingMenu.description": "ทำใหเมนูการคราฟเปนระเบียบมากยิ่งขึ้น",
+
+    // details
+    "config.section.Details.name": "รายละเอียด",
+    "config.section.Details.description": "รายละเอียดตางๆ ของอินเตอรเฟซที่เปดใชงาน หากคุณพบปญหา เชน\n\nTwo content packs want to load the 'TileSheets/furniture' ...\n\nใหคุณปดตัวเลือก  TileSheets: furniture  ดานลาง  (x คือเปดใชงาน)\nหรือ ติดตอผูพัฒนาม็อดภาษาไทย เพื่อใหสามารถทำงานรวมกับม็อดดังกลาวได"
+}

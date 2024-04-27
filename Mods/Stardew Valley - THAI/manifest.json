@@ -1,0 +1,14 @@
+﻿{
+    "Name": "Stardew Valley - THAI",
+    "Author": "Translator Army x 'ELL",
+    "Version": "2.4.6",
+    "MinimumApiVersion": "4.0.0",
+    "MinimumGameVersion": "1.6.3",
+    "Description": "Immerse yourself in the world of farming, relationships, and community, all while enjoying seamless communication in Thai.",
+    "UniqueID": "ELL.StardewValleyTHAI",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "2.0.0"
+    },
+    "UpdateKeys": [ "Nexus:7052" ]
+}

@@ -1,0 +1,23 @@
+
+  .card {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fefefe;
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-label {
+    margin-left: 10px;
+  }
+  
+  .checkbox-input {
+    margin-right: 10px;
+  }
+  
